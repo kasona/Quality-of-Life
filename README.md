@@ -1,3 +1,5 @@
 # Quality-of-Life
 
-Final Project
+Installed mongoose
+
+OutsideData - do NOT open with sublime, open in finder.
