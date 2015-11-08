@@ -759,35 +759,45 @@ var topics = [
     ]
   ];
 
+var years = {};   // get the average for the years;
+for (var i = 0; i < topics.length; i++) {
+  var num = topics[i][0].substring(0, 4);
+  if (!years[num])
+    years[num] = { name: num, val: 0, count: 0 };
+  years[num].count++;
+  years[num].val = (years[num].val + topics[i][1]) / years[num].count;
+}
 var formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
 
-var sales = [];
+var sales = Object.keys(years).map(function(key) { return years[key]; });
+sales.reverse();    // put latest years first;
+var cities = [];    // put data in cities for consistency with jobs and salaries;
 var data = [
   {
     name : 'citycode_MSP',
     val : 'C00010: San Francisco'
   },
   {
-    name : topics[1][0],
-    val : formatter.format(topics[1][1])
+    name : sales[0].name,
+    val : formatter.format(sales[0].val)
   },
   {
-    name : topics[2][0],
-    val : formatter.format(topics[2][1])
+    name : sales[1].name,
+    val : formatter.format(sales[1].val)
   },
   {
-    name : topics[3][0],
-    val : formatter.format(topics[3][1])
+    name : sales[2].name,
+    val : formatter.format(sales[2].val)
   },
   {
-    name : topics[4][0],
-    val : formatter.format(topics[4][1])
+    name : sales[3].name,
+    val : formatter.format(sales[3].val)
   },
   {
-    name : topics[5][0],
-    val : formatter.format(topics[5][1])
+    name : sales[4].name,
+    val : formatter.format(sales[4].val)
   }
 ];
-sales.push(data);
+cities.push(data);
 
-module.exports = sales;
+module.exports = cities;
