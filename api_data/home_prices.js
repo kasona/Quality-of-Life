@@ -768,36 +768,14 @@ for (var i = 0; i < topics.length; i++) {
   years[num].val = (years[num].val + topics[i][1]) / years[num].count;
 }
 var formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+var prices = Object.keys(years).map(function(key) { return years[key]; });
 
-var sales = Object.keys(years).map(function(key) { return years[key]; });
-sales.reverse();    // put latest years first;
-var cities = [];    // put data in cities for consistency with jobs and salaries;
-var data = [
-  {
-    name : 'citycode_MSP',
-    val : 'C00010: San Francisco'
-  },
-  {
-    name : sales[0].name,
-    val : formatter.format(sales[0].val)
-  },
-  {
-    name : sales[1].name,
-    val : formatter.format(sales[1].val)
-  },
-  {
-    name : sales[2].name,
-    val : formatter.format(sales[2].val)
-  },
-  {
-    name : sales[3].name,
-    val : formatter.format(sales[3].val)
-  },
-  {
-    name : sales[4].name,
-    val : formatter.format(sales[4].val)
-  }
-];
-cities.push(data);
+for (var i = 0; i < prices.length; i++) {
+  prices[i].val = formatter.format(prices[i].val);
+}
+prices.reverse();           // put latest years first;
 
-module.exports = cities;
+module.exports = prices;      // ANALYZE MEDIAN RENT _RMP;
+
+// https://www.quandl.com/api/v3/datasets/ZILL/C00010_MSP.json
+// DO _RMP.json (median rent) and _MSP (median sale price); https is preferred over http!

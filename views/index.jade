@@ -3,17 +3,22 @@ extends ./layouts/mainLayout
 include ./mixins/templater
 
 block content
-  h2 Jobs Data
+  h2 Job Density
 
-  ul(id="jobs")
-    +listData(jobs)
+  ul(id="job-densities")
+    +listGroupData(densities)
 
-  h2 Salaries Data
+  h2 Job Listings
 
-  ul(id="salaries")
-    +listData(salaries)
+  ul(id="job-listings")
+    +listUniqueData(jobs)
 
-  h2 Homes Data
+  h2 Home Prices
 
-  ul(id="homes")
-    +listData(homes)
+  ul(id="home-prices")
+    +listGroupData(prices)
+
+  h2 Home Listings
+
+  ul(id="home-listings")
+    +listUniqueData(sales)
