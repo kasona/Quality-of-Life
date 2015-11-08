@@ -1,0 +1,22 @@
+
+extends ./layouts/mainLayout
+include ./mixins/templater
+
+block title
+  h2 Jobs, Salary, Homes Mashup
+
+block content
+  ul(id="jobs")
+    +listData(jobs)
+
+  br
+  hr
+
+  ul(id="salaries")
+    +listData(salaries)
+
+  br
+  hr
+
+  ul(id="homes")
+    +listData(homes)

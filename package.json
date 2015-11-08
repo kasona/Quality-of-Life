@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/kasona/Quality-of-Life#readme",
   "dependencies": {
-    "mongoose": "^4.2.4"
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.2.4",
+    "ngstorage": "^0.3.9",
+    "request": "^2.65.0",
+    "request-json": "^0.5.3"
   }
 }
