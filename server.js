@@ -20,10 +20,6 @@ app.use(parser.urlencoded({ extended: true })); // parse form data;
 app.use(parser.json());           // for parsing application/ json;
 app.use(express.static('./public'));
 
-console.log(jobs);
-console.log(salaries);
-console.log(homes);
-
 app.get('/', (req, res) => {
   res.render('index', { jobs: jobs, salaries: salaries, homes: homes });
 });

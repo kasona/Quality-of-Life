@@ -1,5 +1,1 @@
-# Quality-of-Life
-
-Installed mongoose
-
-OutsideData - do NOT open with sublime, open in finder.
+# Quality-of-Life: Jobs, Salaries, Homes Mashup

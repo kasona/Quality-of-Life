@@ -247,7 +247,7 @@ for(var i = 0; i < topics.length; i++){
     },
     {
       name : 'longitude',
-      val : topics.longitude
+      val : topics[i].longitude
     }
   ];
   jobs.push(data);

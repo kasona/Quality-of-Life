@@ -2,21 +2,18 @@
 extends ./layouts/mainLayout
 include ./mixins/templater
 
-block title
-  h2 Jobs, Salary, Homes Mashup
-
 block content
+  h2 Jobs Data
+
   ul(id="jobs")
     +listData(jobs)
 
-  br
-  hr
+  h2 Salaries Data
 
   ul(id="salaries")
     +listData(salaries)
 
-  br
-  hr
+  h2 Homes Data
 
   ul(id="homes")
     +listData(homes)
