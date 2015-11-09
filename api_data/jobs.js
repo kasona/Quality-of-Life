@@ -531,39 +531,19 @@ var topics = [
 var jobs = [];
 for(var i = 0; i < topics.length; i++) {
   var data = [
-    {
-      name : 'jobtitle',
-      val : topics[i].jobtitle
-    },
-    {
-      name : 'company',
-      val : topics[i].company
-    },
-    {
-      name : 'date',
-      val : topics[i].date
-    },
-    {
-      name : 'snippet',
-      val : topics[i].snippet
-    },
-    {
-      name : 'url',
-      val : topics[i].url
-    },
-    {
-      name : 'latitude',
-      val : topics[i].latitude
-    },
-    {
-      name : 'longitude',
-      val : topics[i].longitude
-    }
+    { name : 'jobtitle', val : topics[i].jobtitle },
+    { name : 'company', val : topics[i].company },
+    { name : 'date', val : topics[i].date },
+    { name : 'snippet', val : topics[i].snippet },
+    { name : 'url', val : topics[i].url },
+    { name : 'city', val : 'Miami' },   // get city from API URL since Indeed gives "subcities" for "city";
+    { name : 'latitude', val : topics[i].latitude },
+    { name : 'longitude', val : topics[i].longitude }
   ];
   jobs[i] = data;
 }
 
-module.exports = jobs;      // COMPUTE SALARY BY CITY FOR A JOB CATEGORY BY AVERAGING SALARIES FOR CURRENT JOB LISTINGS;
+module.exports = jobs;      // COMPUTE SALARY AND # OF JOBS PER CITY PER JOB CATEGORY BY AVERAGING SALARIES FOR CURRENT JOB LISTINGS;
 
 // http://api.indeed.com/ads/apisearch?publisher=1588917421720308&co=us&format=json&fromage=90&jt=fulltime&l=miami%2Cfl&latlong=1&limit=50&q=web+developer&radius=50&st=employer&useragent=&userip=0.0.0.0&v=2
-// set st=employer so map markers don't overlap and duplicates are not shown; only max results are returned, so see totalResults field for total listings;
+// set st=employer so map markers don't overlap and duplicates are not shown; "limit" is returned, so see "totalResults" field for total listings;

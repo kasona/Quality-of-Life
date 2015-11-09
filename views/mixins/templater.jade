@@ -14,8 +14,15 @@ mixin listUniqueData(data)
     li= item
     - var item = obj[5].name + ' : ' + obj[5].val;
     li= item
-    - var item = obj[6].name + ' : ' + obj[6].val;
+    - var item = obj[6].name ? obj[6].name + ' : ' + obj[6].val : 'Property: ';
+    li(class="property")= item
+      if obj[6].property
+        div
+          +listValues(obj[6].property)
+    - var item = obj[7].name ? obj[7].name + ' : ' + obj[7].val : 'Photos: ';
     li= item
+      if obj[7].photos
+        +listValues(obj[7].photos)
     br
 
 //- for listing regional data like city job openings and home prices
@@ -23,3 +30,7 @@ mixin listGroupData(data)
   each obj in data
     - var item = obj.name + ' : ' + obj.val;
     li= item
+
+mixin listValues(list)
+  each item in list
+    div= item

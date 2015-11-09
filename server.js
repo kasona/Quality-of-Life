@@ -12,7 +12,6 @@ app.set ('view engine', 'jade');
 app.set('views', './views');
 
 var jobs = require('./api_data/jobs');
-var densities = require('./api_data/densities.js');
 var prices = require('./api_data/home_prices.js');
 var sales = require('./api_data/home_sales.js');
 
@@ -22,7 +21,7 @@ app.use(parser.json());           // for parsing application/ json;
 app.use(express.static('./public'));
 
 app.get('/', (req, res) => {
-  res.render('index', { jobs: jobs, densities: densities, prices: prices, sales: sales });
+  res.render('index', { jobs: jobs, prices: prices, sales: sales });
 });
 app.listen(PORT, function() {
   console.log('App is listening on port:', PORT);

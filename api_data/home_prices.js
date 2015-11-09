@@ -778,4 +778,4 @@ prices.reverse();           // put latest years first;
 module.exports = prices;      // ANALYZE MEDIAN RENT _RMP;
 
 // https://www.quandl.com/api/v3/datasets/ZILL/C00010_MSP.json
-// DO _RMP.json (median rent) and _MSP (median sale price); https is preferred over http!
+// DO _RMP.json (median rent) and _MSP (median sale price)

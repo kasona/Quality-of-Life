@@ -667,7 +667,8 @@ for (var i = 0; i < topics.length; i++) {
 
 module.exports = salaries;
 
-// # of jobs by cities in state: http://api.glassdoor.com/api/api.htm?t.p=47687&t.k=ga8zdIG4Vpc&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&returnCities=true&admLevelRequested=1&city=Miami&state=FL&jc=29
-//  CANNOT GET DATA FOR 1 CITY ALONE; jc = job category code (1-33); salaries by city is not available;
+// # of jobs by subcities in state: http://api.glassdoor.com/api/api.htm?t.p=47687&t.k=ga8zdIG4Vpc&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-stats&returnCities=true&admLevelRequested=1&city=Miami&state=FL&jc=29
+// cannot get # of jobs for 1 city alone; jc = job category code (1-33);
 
+// salaries by city is not available from Indeed;
 // national salaries: http://api.glassdoor.com/api/api.htm?t.p=47687&t.k=ga8zdIG4Vpc&userip=0.0.0.0&useragent=&format=json&v=1&action=jobs-prog&city=San+Jose&state=CA&jobType=fulltime&jc=29

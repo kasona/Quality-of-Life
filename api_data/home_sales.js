@@ -1983,22 +1983,33 @@ var topics = [
 }
 ];
 
+var getKeyValues = function(data) {
+  return function(key) {         // to map keys:values in an object;
+    return key + ' : ' + data[key];
+  };
+}
+
 var sales = [];
 for(var i = 0; i < topics.length; i++) {
-  var data = [
-    { name : 'mlsId', val : topics[i].mlsId },
-    { name : 'address', val : topics[i].address.full },
-    { name : 'zipcode', val : topics[i].address.postalCode },
-    { name : 'latitude', val : topics[i].geo.lat },
-    { name : 'longitude', val : topics[i].geo.lng },
-    { name : 'listPrice', val : topics[i].listPrice },
-    { name : 'daysOnMarket', val : topics[i].mls.daysOnMarket },
-    { photos : topics[i].photos },          // an array of photo url's for details page;
-    { property : topics[i].property }       // an object of all home attributes;
-  ];
-  sales[i] = data;
+  var state = topics[i].mls.status;
+  if (state === 'Active' || state === 'ActiveUnderContract' || state === 'ComingSoon') {
+    topics[i].property.addressFull = topics[i].address.full;
+    topics[i].property.postalCode = topics[i].address.postalCode;
+    var property = Object.keys(topics[i].property).map(getKeyValues(topics[i].property));
+    var data = [
+      { name : 'mlsId', val : topics[i].mlsId },
+      { name : 'city', val : topics[i].address.city },
+      { name : 'latitude', val : topics[i].geo.lat },
+      { name : 'longitude', val : topics[i].geo.lng },
+      { name : 'listPrice', val : topics[i].listPrice },
+      { name : 'daysOnMarket', val : topics[i].mls.daysOnMarket },
+      { property : property },              // an array of all home attributes;
+      { photos : topics[i].photos }         // an array of photo url's;
+    ];
+    sales.push(data);     // MUST push since since indices are skipped;
+  }
 }
 
 module.exports = sales;
 
-// NEED API URL:
+https://api.simplyrets.com/properties?api_key=simplyrets&api_secret=simplyrets
