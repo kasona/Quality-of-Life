@@ -2012,4 +2012,5 @@ for(var i = 0; i < topics.length; i++) {
 
 module.exports = sales;
 
-https://api.simplyrets.com/properties?api_key=simplyrets&api_secret=simplyrets
+// https://api.simplyrets.com/properties?api_key=simplyrets&api_secret=simplyrets
+// NEED MLS && RETS CREDENTIALS TO GET FULL ACCESS;

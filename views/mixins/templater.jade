@@ -22,10 +22,11 @@ mixin listUniqueData(data)
     - var item = obj[7].name ? obj[7].name + ' : ' + obj[7].val : 'Photos: ';
     li= item
       if obj[7].photos
-        +listValues(obj[7].photos)
+        div
+          +listValues(obj[7].photos)
     br
 
-//- for listing regional data like city job openings and home prices
+//- for listing regional data like city job salaries and home prices
 mixin listGroupData(data)
   each obj in data
     - var item = obj.name + ' : ' + obj.val;

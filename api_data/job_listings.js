@@ -543,7 +543,7 @@ for(var i = 0; i < topics.length; i++) {
   jobs[i] = data;
 }
 
-module.exports = jobs;      // COMPUTE SALARY AND # OF JOBS PER CITY PER JOB CATEGORY BY AVERAGING SALARIES FOR CURRENT JOB LISTINGS;
+module.exports = jobs;      // COMPUTE # OF JOBS PER CITY PER JOB CATEGORY BY AVERAGING SALARIES FOR CURRENT JOB LISTINGS;
 
 // http://api.indeed.com/ads/apisearch?publisher=1588917421720308&co=us&format=json&fromage=90&jt=fulltime&l=miami%2Cfl&latlong=1&limit=50&q=web+developer&radius=50&st=employer&useragent=&userip=0.0.0.0&v=2
-// set st=employer so map markers don't overlap and duplicates are not shown; "limit" is returned, so see "totalResults" field for total listings;
+// set st=employer so map markers don't overlap and duplicates are not shown; "limit" of 25 is returned, so see "totalResults" field for total listings;
