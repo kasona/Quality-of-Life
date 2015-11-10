@@ -19,6 +19,8 @@
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
     "jade": "^1.11.0",
     "method-override": "^2.3.5",
     "mongoose": "^4.2.4",

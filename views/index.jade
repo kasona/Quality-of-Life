@@ -2,18 +2,3 @@
 extends ./layouts/mainLayout
 include ./mixins/templater
 
-block content
-  h2 Jobs Data
-
-  ul(id="jobs")
-    +listData(jobs)
-
-  h2 Salaries Data
-
-  ul(id="salaries")
-    +listData(salaries)
-
-  h2 Homes Data
-
-  ul(id="homes")
-    +listData(homes)
