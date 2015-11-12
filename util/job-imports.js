@@ -1,6 +1,6 @@
 var fs = require('fs');
 var csv = require('fast-csv');
-var stream = fs.createReadStream('./util/jobCategoryjobTitle.csv');
+// var stream = fs.createReadStream('./util/jobCategoryjobTitle.csv');
 var stream = fs.createReadStream('./util/jobtitleCitySalary.csv');
 
 var mongoose = require('mongoose');
@@ -8,9 +8,9 @@ var Schema = mongoose.Schema;
 var masterList = [];
 var mongoose = require('mongoose');
 var lodash = require('lodash');
-mongoose.connect('mongodb://localhost:27017/job-imports');
+mongoose.connect('mongodb://localhost:27017/hire');
 
-
+/*
 //define schema for import data from indeed
 var JobWithCatSchema = Schema({
   jobCategory: String,
@@ -44,7 +44,7 @@ function addJobCatToCollection(data){
   });
 }
 
-
+*/
 
 //define schema for import data
 var JobSchema = Schema({
@@ -78,8 +78,6 @@ function addJobToCollection(data){
     console.log(err);
   });
 }
-
-
 
 
 /*
