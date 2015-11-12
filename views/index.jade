@@ -2,3 +2,30 @@
 extends ./layouts/mainLayout
 include ./mixins/templater
 
+block content
+  h1(style="text-align: center;") Test Data for Miami, FL
+
+  h2 Rental Prices
+
+  ul(id="rent-prices")
+    +listGroupData(leases)
+
+  h2 Rental Density
+
+  ul(id="rent-density")
+    +listGroupData(rents)
+
+  h2 Home Prices
+
+  ul(id="home-prices")
+    +listGroupDetails(prices)
+
+  h2 Home Density
+
+  ul(id="home-density")
+    +listGroupDetails(homes)
+
+  h2 Job Listings
+
+  ul(id="job-listings")
+    +listUniqueData(jobs)
