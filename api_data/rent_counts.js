@@ -275,23 +275,19 @@ var topics = [
 ]
 ];
 
-var years = {};   // get the average for the years;
+var url = 'http://www.quandl.com/api/v3/datasets/ZILL/C00033_HR.json?limit=60';
+
+var counts = [];
 for (var i = 0; i < topics.length; i++) {
-  var num = topics[i][0].substring(0, 4);
-  if (!years[num])
-    years[num] = { name: num, val: 0, count: 0 };
-  years[num].count++;
-  years[num].val += topics[i][1];
+  var num = topics[i][0].substring(0, 7);
+  counts[i] = { name: num, val: topics[i][1] };
 }
-var formatter = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
-var prices = Object.keys(years).map(function(key) { return years[key]; });
+var formatter = new Intl.NumberFormat('en-US');
 
-for (var i = 0; i < prices.length; i++) {
-  prices[i].val = formatter.format(prices[i].val / prices[i].count);
+for (var i = 0; i < counts.length; i++) {
+  counts[i].val = formatter.format(counts[i].val);
 }
-prices.reverse();       // put latest years first;
+module.exports = counts;
 
-module.exports = prices;
-
-// http://www.quandl.com/api/v3/datasets/ZILL/C00033_HR.json?limit=72
+// http://www.quandl.com/api/v3/datasets/ZILL/C00033_HR.json?limit=60
 // C00033 = city code for Miami, _HR = # of homes rented; https IS PREFERRED OVER http;

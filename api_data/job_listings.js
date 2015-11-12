@@ -528,6 +528,26 @@ var topics = [
 }
 ];
 
+var json = {
+"version": 2,
+"query": "web developer",
+"location": "miami,fl",
+"dupefilter": true,
+"highlight": true,
+"radius": 50,
+"start": 1,
+"end": 25,
+"totalResults": 259,
+"pageNumber": 0,
+"results" : ['list above']
+};
+var nextJobQuery = json.end;   // do not increment since start = 1;
+var comma = json.location.indexOf(',');
+var city  = json.location.substring(0, comma);
+var state = json.location.substring(comma + 1);
+var year = (new Date()).getFullYear();
+var jobCounts = json.totalResults;
+
 var jobs = [];
 for(var i = 0; i < topics.length; i++) {
   var data = [
@@ -536,14 +556,18 @@ for(var i = 0; i < topics.length; i++) {
     { name : 'date', val : topics[i].date },
     { name : 'snippet', val : topics[i].snippet },
     { name : 'url', val : topics[i].url },
-    { name : 'city', val : 'Miami' },   // get city from API URL since Indeed gives "subcities" for "city";
+    { name : 'city', val : city },
+    { name : 'state', val : topics[i].state },
     { name : 'latitude', val : topics[i].latitude },
     { name : 'longitude', val : topics[i].longitude }
   ];
   jobs[i] = data;
 }
 
-module.exports = jobs;      // COMPUTE # OF JOBS PER CITY PER JOB CATEGORY BY AVERAGING SALARIES FOR CURRENT JOB LISTINGS;
+module.exports = jobs;
+
+// jobs document schema: jobtitle, company, url, date, snippet, city, state, latitude, longitude
+// job_stats document schema: city: city, state: state, jobType :{ month : [jobCounts, medianSalary, loc_quotient-density ]} FOR 27 JOB TYPES;
 
 // http://api.indeed.com/ads/apisearch?publisher=1588917421720308&co=us&format=json&fromage=90&jt=fulltime&l=miami%2Cfl&latlong=1&limit=50&q=web+developer&radius=50&st=employer&useragent=&userip=0.0.0.0&v=2
 // set st=employer so map markers don't overlap and duplicates are not shown; "limit" of 25 is returned, so see "totalResults" field for total listings;

@@ -1,5 +1,5 @@
 
-//- for listing specific data like job listings and home listings
+//- for showing job listings and home listings;
 mixin listUniqueData(data)
   each obj in data
     - var item = obj[0].name + ' : ' + obj[0].val;
@@ -15,8 +15,10 @@ mixin listUniqueData(data)
     - var item = obj[5].name + ' : ' + obj[5].val;
     li= item
     - var item = obj[6].name ? obj[6].name + ' : ' + obj[6].val : 'Property: ';
-    li(class="property")= item
-      if obj[6].property
+    if obj[6].name
+      li=item
+    else
+      li(class="property")= item
         div
           +listValues(obj[6].property)
     - var item = obj[7].name ? obj[7].name + ' : ' + obj[7].val : 'Photos: ';
@@ -26,12 +28,19 @@ mixin listUniqueData(data)
           +listValues(obj[7].photos)
     br
 
-//- for listing regional data like city job salaries and home prices
+//- helper for listUniqueData;
+mixin listValues(list)
+  each item in list
+    div= item
+
+//- for listing rental data;
 mixin listGroupData(data)
   each obj in data
     - var item = obj.name + ' : ' + obj.val;
     li= item
 
-mixin listValues(list)
-  each item in list
-    div= item
+//- for listing home data;
+mixin listGroupDetails(data)
+  each obj in data
+    -var values = Object.keys(obj).reduce(function(prev, curr) { return prev + ' - ' + curr + ' : ' + obj[curr] }, '');
+    li= values

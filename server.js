@@ -1,6 +1,6 @@
 "use strict";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;     // NEED TO USE Node 4.0.0 to include mongodb's dependency (kerberos@~0.0) and monk's dependency (mongodb@~1.4);
 var methodOverride = require('method-override');
 var parser = require('body-parser');
 var request = require('request-json');
@@ -22,7 +22,7 @@ app.use(parser.json());           // for parsing application/ json;
 app.use(express.static('./public'));
 
 app.get('/', (req, res) => {
-  res.render('index', { jobs: jobs, rents: rents, leases: leases });
+  res.render('index', { jobs: jobs, homes: homes.counters, prices: homes.prices, rents: rents, leases: leases });
 });
 app.listen(PORT, function() {
   console.log('App is listening on port:', PORT);

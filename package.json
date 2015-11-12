@@ -22,7 +22,7 @@
     "jade": "^1.11.0",
     "method-override": "^2.3.5",
     "mongodb": "^2.0.48",
-    "mongoskin": "^2.0.3",
+    "monk": "^1.0.1",
     "request": "^2.65.0",
     "request-json": "^0.5.3",
     "xml2js": "^0.4.15"
