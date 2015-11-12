@@ -46,12 +46,12 @@ function addJobToCollection(data){
 var salaryAvg = Job.find(function(err, result){
   var finalAvgStateSalPerJobtitle = {};  // see below for example of what is returned
 
-  // console.log('results', err,result.length); // results.length = 65499 entries
+  // console.log('results', err,result); // results.length = 65499 entries
   var getJobTitles = lodash.groupBy(result, function(job){
     return job.jobtitle;
   });
   // group by jobtitles
-  // console.log('getJobTitles', Object.keys(getJobTitles).length); // total jobtitles = 828
+  // console.log('getJobTitles', Object.keys(getJobTitles)); // total jobtitles = 828
 
   var jobTitles = Object.keys(getJobTitles);  // array of jobtitles (828)
 
@@ -63,6 +63,7 @@ var salaryAvg = Job.find(function(err, result){
       var stateGrouping = lodash.groupBy(singleJobForAllStates, function(jobItem) {
         return jobItem.state;
       });
+
       //group by states
       // console.log('job', job, 'state', Object.keys(stateGrouping).length); // returns job Writers and Authors state 20
       // console.log('@@@@@@@', stateGrouping); // returns an object key is state value is array with object of individual city
@@ -77,14 +78,33 @@ var salaryAvg = Job.find(function(err, result){
             return jobItem2.salary;
           });
           var avgSalaryForStatePerJobtitle = totalSalary / singleJobForOneState.length;
+           console.log( singleJobForOneState + "  " +  avgSalaryForStatePerJobtitle);
 
           finalAvgStateSalPerJobtitle[job][state] = avgSalaryForStatePerJobtitle;
 
+
+
         });
       }
+
+
     });
-// console.log('finalAvg', finalAvgStateSalPerJobtitle['Word Processors and Typists']['CA']); // returns $40463
+// console.log('finalAvg', finalAvgStateSalPerJobtitle['Word Processors and Typists']['HI']); // returns $40463
+
+
+    // console.log(wordProcessor['state']);
   }
+//     var wordProcessor = Object.keys(finalAvgStateSalPerJobtitle['Word Processors and Typists']).length;
+//     var salaries = finalAvgStateSalPerJobtitle['Word Processors and Typists'];
+//     console.log(salaries);
+
+
+// // console.log('finalAvg', finalAvgStateSalPerJobtitle['Word Processors and Typists'][state]); // returns $40463
+// // console.log('wordProcessor', wordProcessor); // returns $40463
+//     for(var i=0; i < wordProcessor; i++){
+
+//       console.log(salaries['state']);
+//     }
 });
 
 
