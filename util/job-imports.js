@@ -1,6 +1,8 @@
 var fs = require('fs');
 var csv = require('fast-csv');
 var stream = fs.createReadStream('./util/jobCategoryjobTitle.csv');
+var stream = fs.createReadStream('./util/jobtitleCitySalary.csv');
+
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var masterList = [];
@@ -43,7 +45,7 @@ function addJobCatToCollection(data){
 }
 
 
-/*
+
 //define schema for import data
 var JobSchema = Schema({
   state: String,
@@ -76,7 +78,7 @@ function addJobToCollection(data){
     console.log(err);
   });
 }
-*/
+
 
 
 
