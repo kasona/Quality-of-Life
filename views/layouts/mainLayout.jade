@@ -13,31 +13,31 @@ html
 
 
     //- filter bar
-    .row
-      .large-12.columns#filter-bar
-
+    .row#filter-bar
+      .large-2.columns
         .ui-widget#jobCategorySearch
           label(for='jobCategoryTypes') Job Category:
           input#jobCategoryTypes
+      .large-2.columns
         .ui-widget#jobtitleSearch
           label(for='jobtitleTypes') Job Title:
           input#jobtitleTypes
+      .large-2.columns
         .ui-widget#citySearch
           label(for='cityTypes') City:
           input#cityTypes
-        .ui-widget#stateSearch
-          label(for='stateTypes') State:
-          input#stateTypes
+      .large-2.columns
         .ui-widget#salarySearch
           label(for='salaryTypes') Salary:
           input#salaryTypes
+      .large-2.columns
         .ui-widget#houseSearch
           label(for='houseTypes') House Type:
           input#houseTypes
+      .large-2.columns
+        a.button(href="#")#searchSubmit Submit
 
-        a.button(href="#") Submit
-
-        hr
+    hr
 
     //- salary bar
     .row#salary-bar

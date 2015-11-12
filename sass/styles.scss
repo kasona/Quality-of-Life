@@ -11,9 +11,6 @@
 body{
   background: aqua;
 }
-#filter-bar{
-  background: white;
-}
 #salary-bar{
   background: green;
 }
@@ -26,33 +23,10 @@ body{
 #footer{
   background: yellow;
 }
-#jobSearch{
-  width: 22%;
+
+// Filter Bar
+#filter-bar{
+  padding-top: 30px;
   display: inline-block;
-  padding-right: 10px;
-}
-#houseSearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#citySearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#salarySearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#jobCategory{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#jobCategory{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
+  background: white;
 }

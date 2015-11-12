@@ -3299,45 +3299,23 @@ body {
   background: aqua; }
 
 /* line 14, stdin */
-#filter-bar {
-  background: white; }
-
-/* line 17, stdin */
 #salary-bar {
   background: green; }
 
-/* line 20, stdin */
+/* line 17, stdin */
 #map {
   background: brown; }
 
-/* line 23, stdin */
+/* line 20, stdin */
 #list {
   background: gray; }
 
-/* line 26, stdin */
+/* line 23, stdin */
 #footer {
   background: yellow; }
 
-/* line 29, stdin */
-#jobSearch {
-  width: 22%;
+/* line 28, stdin */
+#filter-bar {
+  padding-top: 30px;
   display: inline-block;
-  padding-right: 10px; }
-
-/* line 34, stdin */
-#houseSearch {
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px; }
-
-/* line 39, stdin */
-#citySearch {
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px; }
-
-/* line 44, stdin */
-#salarySearch {
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px; }
+  background: white; }
