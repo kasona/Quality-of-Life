@@ -699,13 +699,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
-
-
-
-
 "Education/Training": {
   "JobTitles": [
     {
@@ -910,11 +903,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
-
-
 "Government/Military": {
   "JobTitles": [
     {
@@ -973,12 +961,6 @@ var autocomplete = {
 
   ]
 },
-
-
-
-
-
-
 "Healthcare": {
   "JobTitles": [
     {
@@ -1227,9 +1209,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
 "Hospitality/Travel": {
   "JobTitles": [
     {
@@ -1278,10 +1257,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
-
 "Human Resources Jobs": {
   "JobTitles": [
     {
@@ -1350,13 +1325,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
-
-
-
-
 "Insurance": {
   "JobTitles": [
     {
@@ -1401,12 +1369,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
-
-
-
 "Law Enforcement/Security": {
   "JobTitles": [
     {
@@ -1455,11 +1417,6 @@ var autocomplete = {
     }
   ]
 },
-
-
-
-
-
 "Legal": {
   "JobTitles": [
     {
