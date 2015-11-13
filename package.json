@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kasona/Quality-of-Life/issues"
+    "url": "https://github.com/ndunhourowens/Quality-of-Life/issues"
   },
-  "homepage": "https://github.com/kasona/Quality-of-Life#readme",
+  "homepage": "https://github.com/ndunhourowens/Quality-of-Life#readme",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
