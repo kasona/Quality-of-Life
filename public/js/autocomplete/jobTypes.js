@@ -1,5 +1,5 @@
 $(function() {
-  var jobTypes = [
+  var allTypes = [
     "Accounting/Finance",
     "Healthcare",
     "Non=Profit/Volunteering",
@@ -859,7 +859,7 @@ $(function() {
 
 
   ];
-  $( '#jobTypes' ).autocomplete({
-    source: jobTypes
+  $( '.allTypes' ).autocomplete({
+    source: allTypes
   });
 });

@@ -13,13 +13,13 @@ html
 
 
     //- filter bar
-    .row#filter-bar
+    .row
       .large-2.columns
         .ui-widget#jobCategorySearch
           label(for='jobCatTypes') Job Category:
           input#jobCatTypes
       .large-2.columns
-        .ui-widget#jobtitleSearch
+        .ui-widget.allTypes#jobtitleSearch
           label(for='jobtitleTypes', value='Job Title') Job Title:
           input#jobtitleTypes
       .large-2.columns
@@ -40,13 +40,14 @@ html
     hr
 
     //- salary bar
-    .row#salary-bar
-      .large-3.columns#large
-        p
-      .large-6.columns
-        h2 ex. Programmer's salary in this area is
-      .large-3.columns#large
-        p
+
+    //- .row#salary-bar
+    //-   .large-3.columns#large
+    //-     p
+    //-   .large-6.columns
+    //-     h2 ex. Programmer's salary in this area is
+    //-   .large-3.columns#large
+    //-     p
 
     //- map area
     .row
@@ -93,7 +94,7 @@ html
               a(href='#') Link 4
 
 
-    block content
+    //- block content
     //- script(src='//code.jquery.com/jquery-1.10.2.js')
     script(src="/js/modernizr.js")
     script(src="/js/jquery.js")

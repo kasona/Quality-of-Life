@@ -153,7 +153,7 @@ select {
 /* line 223, bower_components/foundation/scss/foundation/components/_grid.scss */
 .row {
   margin: 0 auto;
-  max-width: 62.5rem;
+  max-width: 93.75rem;
   width: 100%; }
   /* line 239, bower_components/foundation/scss/foundation/components/_global.scss */
   .row:before, .row:after {
@@ -2670,7 +2670,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     margin: 0 auto;
     margin-bottom: 0;
-    max-width: 62.5rem; }
+    max-width: 93.75rem; }
   /* line 536, bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section {
     transition: none 0 0;
@@ -3299,22 +3299,36 @@ body {
   background: aqua; }
 
 /* line 14, stdin */
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden; }
+
+/* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+/* line 23, stdin */
+* html .ui-autocomplete {
+  height: 100px; }
+
+/* line 26, stdin */
 #salary-bar {
   background: green; }
 
-/* line 17, stdin */
+/* line 29, stdin */
 #map {
   background: brown; }
 
-/* line 20, stdin */
+/* line 32, stdin */
 #list {
   background: gray; }
 
-/* line 23, stdin */
+/* line 35, stdin */
 #footer {
   background: yellow; }
 
-/* line 28, stdin */
+/* line 40, stdin */
 #filter-bar {
   padding-top: 30px;
   display: inline-block;
