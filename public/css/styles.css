@@ -3328,8 +3328,7 @@ body {
 #footer {
   background: yellow; }
 
-/* line 40, stdin */
+/* line 39, stdin */
 #filter-bar {
   padding-top: 30px;
-  display: inline-block;
   background: white; }
