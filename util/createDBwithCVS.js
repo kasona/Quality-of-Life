@@ -1,16 +1,15 @@
 var fs = require('fs');
 var csv = require('fast-csv');
 // var stream = fs.createReadStream('./util/jobCategoryjobTitle.csv');
-var stream = fs.createReadStream('./util/jobtitleCitySalary.csv');
+// var stream = fs.createReadStream('./util/jobtitleCitySalary.csv');
 
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var masterList = [];
-var mongoose = require('mongoose');
 var lodash = require('lodash');
 mongoose.connect('mongodb://localhost:27017/hire');
 
-/*
+
 //define schema for import data from indeed
 var JobWithCatSchema = Schema({
   jobCategory: String,
@@ -22,62 +21,66 @@ var JobWithCatSchema = Schema({
 var JobCat = mongoose.model('JobCat', JobWithCatSchema);
 
 // read in CSV as stream row by row
-csv.fromStream(stream, {headers:true})
-    .on('data', function(data){
-      console.log(data);
-      // masterList.push(data);
-      addJobCatToCollection(data);
-    })
-    .on('end', function(){
-      // console.log('done');
-      console.log(masterList.toString());
-    });
+// csv.fromStream(stream, {headers:true})
+//     .on('data', function(data){
+//       console.log(data);
+//       // masterList.push(data);
+//       addJobCatToCollection(data);
+//     })
+//     .on('end', function(){
+//       // console.log('done');
+//       console.log(masterList.toString());
+//     });
 
-function addJobCatToCollection(data){
-
-  //create model and save to database
-  var jobCat = new JobCat(data);
-  // console.log(jobCat);
-  jobCat.save(function (err) {
-    if (err) // ...
-    console.log(err);
-  });
-}
-
-*/
-
-//define schema for import data
-var JobSchema = Schema({
-  state: String,
-  city: String,
-  jobtitle: String,
-  salary: Number});
-
-//attach schema to model
-var Job = mongoose.model('Job', JobSchema);
-
-// read in CSV as stream row by row
-csv.fromStream(stream, {headers:true})
-    .on('data', function(data){
-      // console.log(data);
-      // masterList.push(data);
-      addJobToCollection(data);
-    })
-    .on('end', function(){
-      // console.log('done');
-      console.log(masterList.toString());
-    });
-
-function addJobToCollection(data){
+// function addJobCatToCollection(data){
 
 //   //create model and save to database
-  var job = new Job(data);
-  // console.log(job);
-  job.save(function (err) {
-    if (err) // ...
-    console.log(err);
-  });
-}
+//   var jobCat = new JobCat(data);
+//   // console.log(jobCat);
+//   jobCat.save(function (err) {
+//     if (err) // ...
+//     console.log(err);
+//   });
+// }
+
+
+
+//define schema for import data
+// var JobSchema = Schema({
+//   state: String,
+//   city: String,
+//   jobtitle: String,
+//   salary: Number});
+
+// //attach schema to model
+// var Job = mongoose.model('Job', JobSchema);
+
+// // read in CSV as stream row by row
+// csv.fromStream(stream, {headers:true})
+//     .on('data', function(data){
+//       // console.log(data);
+//       // masterList.push(data);
+//       addJobToCollection(data);
+//     })
+//     .on('end', function(){
+//       // console.log('done');
+//       console.log(masterList.toString());
+//     });
+
+// function addJobToCollection(data){
+
+// //   //create model and save to database
+//   var job = new Job(data);
+//   // console.log(job);
+//   job.save(function (err) {
+//     if (err) // ...
+//     console.log(err);
+//   });
+// }
+
+JobCat.find({}).then(function(catagories){
+  console.log(catagories);
+});
 
 
 /*
