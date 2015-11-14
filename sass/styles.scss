@@ -11,8 +11,88 @@
 body{
   background: aqua;
 }
-#filter-bar{
-  background: white;
+a {
+  text-decoration: none;
+}
+.main-header{
+  background: blue;
+}
+
+.content{
+  background: brown;
+}
+.main-nav{
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: green;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+  a {
+    display: block;
+    background: linear-gradient(#3E3E3E, #383838);
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #2E2E2E;
+    color: white;
+    padding: 15px;
+    &:hover, &:focus {
+      background: linear-gradient(#484848, #383838);
+    }
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 34px;
+    background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4));
+  }}
+
+.close-menu {
+  display: none;
+}
+.page-wrap {
+  float: right;
+  width: 100%;
+  transition: width 0.3s ease;
+}
+#main-nav:target {
+  width: 30%;
+}
+#main-nav:target + .page-wrap {
+  width: 70%;
+  .open-menu {
+     display: none;
+  }
+  .close-menu {
+     display: block;
+  }
+  .main-header {
+    width: 70%;
+    left: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+.ui-autocomplete {
+  max-height: 100px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+  /* IE 6 doesn't support max-height
+   * we use height instead, but this forces the menu to always be this tall
+   */
+* html .ui-autocomplete {
+  height: 100px;
 }
 #salary-bar{
   background: green;
@@ -26,33 +106,100 @@ body{
 #footer{
   background: yellow;
 }
-#jobSearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
+// Filter Bar
+#filter-bar{
+  padding-top: 30px;
+  background: white;
 }
-#houseSearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
+
+// __________________________________________
+// @import "compass/css3";
+
+* {
+  box-sizing: border-box;
 }
-#citySearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#salarySearch{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#jobCategory{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
-#jobCategory{
-  width: 22%;
-  display: inline-block;
-  padding-right: 10px;
-}
+
+// html, body { min-height: 100%; }
+// a { text-decoration: none; }
+
+
+// .main-header {
+//   background: linear-gradient(#3F94BF, #246485);
+//   padding: 5px;
+//   text-align: center;
+//   color: white;
+//   text-shadow: #222 0px -1px 1px;
+//   position: fixed;
+//   width: 100%;
+//   left: 0;
+//   transition: all 0.3s ease;
+//   a {
+//     position: absolute;
+//     left: 20px;
+//     top: 20px;
+//     color: white;
+//     font-size: 32px;
+//   }
+// }
+
+// .page-wrap {
+//   float: right;
+//   width: 100%;
+//   transition: width 0.3s ease;
+// }
+
+// .main-nav {
+//   position: fixed;
+//   top: 0;
+//   width: 0;
+//   height: 100%;
+//   background: green;
+//   overflow-y: auto;
+//   transition: width 0.3s ease;
+//   a {
+//     display: block;
+//     background: linear-gradient(#3E3E3E, #383838);
+//     border-top: 1px solid #484848;
+//     border-bottom: 1px solid #2E2E2E;
+//     color: white;
+//     padding: 15px;
+//     &:hover, &:focus {
+//       background: linear-gradient(#484848, #383838);
+//     }
+//   }
+//   &:after {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     height: 100%;
+//     width: 34px;
+//     background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4));
+//   }
+// }
+
+// .content {
+//   padding: 100px 20px 20px 20px;
+// }
+
+// .close-menu {
+//   display: none;
+// }
+
+// #main-nav:target {
+//   padding-top: 150px;
+//   width: 30%;
+// }
+// #main-nav:target + .page-wrap {
+//   width: 70%;
+//   .open-menu {
+//      display: none;
+//   }
+//   .close-menu {
+//      display: block;
+//   }
+//   .main-header {
+//     width: 70%;
+//     left: 30%;
+//   }
+// }

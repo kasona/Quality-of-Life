@@ -10,87 +10,83 @@ html
     include ../html/header.html
   body
 
+    .main-nav#main-nav
+
+      a.button(href="#").close-menu#searchSubmit Close
+      .jobCat
+        h2
+          a(href='#') Transportation
+      .jobTit
+        h3
+          a(href='#') Van Driver
+      .comp
+        a(href='#') YHata
+      .cityState
+        a(href='#') Honolulu, HI
+      .snippet
+        a(href='#')
+          p.
+            It’s all about playing four quarters. I think we played well but the other team played well too. They took advantage of certain circumstances that arose. It’s a physical game.
+
+    .page-wrap
+      //- .row.main-header
+      //-   .large-12.columns
+      //-   h1 cssPanelMenu
+      //-     a.open-menu(href='#main-nav')
+      //-       button button
+      //-     a.close-menu(href='#')
+      //-       button button
+
+      //- filter bar
+      .row#filter-bar
+        .large-2.columns
+          .ui-widget#jobCategorySearch
+            label(for='jobCatTypes') Job Category:
+            input#jobCatTypes
+        .large-2.columns
+          .ui-widget.allTypes#jobtitleSearch
+            label(for='jobtitleTypes', value='Job Title') Job Title:
+            input#jobtitleTypes
+        .large-2.columns
+          .ui-widget#citySearch
+            label(for='cityTypes') City:
+            input#cityTypes
+        .large-2.columns
+          .ui-widget#salarySearch
+            label(for='salaryTypes') Salary:
+            input#salaryTypes
+        .large-2.columns
+          .ui-widget#houseSearch
+            label(for='houseTypes') House Type:
+            input#houseTypes
+        .large-2.columns
+          a.button(href="#main-nav").open-menu#searchSubmit Submit
+          a.button(href="#").close-menu#searchSubmit Submit
 
 
-    //- filter bar
-    .row
-      .large-12.columns#filter-bar
+      .row
+        .large-12.columns.content
+          p.
+             map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map
 
-        .ui-widget#jobCategorySearch
-          label(for='jobCategoryTypes') Job Category:
-          input#jobCategoryTypes
-        .ui-widget#jobtitleSearch
-          label(for='jobtitleTypes') Job Title:
-          input#jobtitleTypes
-        .ui-widget#citySearch
-          label(for='cityTypes') City:
-          input#cityTypes
-        .ui-widget#stateSearch
-          label(for='stateTypes') State:
-          input#stateTypes
-        .ui-widget#salarySearch
-          label(for='salaryTypes') Salary:
-          input#salaryTypes
-        .ui-widget#houseSearch
-          label(for='houseTypes') House Type:
-          input#houseTypes
+      //- footer
+      footer.row
+        .large-12.columns#footer
+          hr
 
-        a.button(href="#") Submit
+          .row
+            .large-6.columns
+              p &copy; Copyright no one at all. Go to town.
 
-        hr
+            .large-6.columns
+              ul.inline-list.right
+                a(href='#') Link 1
 
-    //- salary bar
-    .row#salary-bar
-      .large-3.columns#large
-        p
-      .large-6.columns
-        h2 ex. Programmer's salary in this area is
-      .large-3.columns#large
-        p
+                a(href='#') Link 2
 
-    //- map area
-    .row
-      .large-9.columns#map
-        p.
-           map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map map
+                a(href='#') Link 3
 
-
-      //- list/detals section
-      aside.large-3.columns#list
-        ul.side-nav
-          h5 List/Details
-          //- for Each job in jobs
-          a(href="www.indeed.com")
-
-
-        //- list/detals section
-      aside.large-3.columns#list
-        ul.side-nav
-          h5 List/Details
-            a(href="www.indeed.com")
-              h2 job title
-              h2 company
-              h2 city/state
-              p snippet
-
-    //- footer
-    footer.row
-      .large-12.columns#footer
-        hr
-
-        .row
-          .large-6.columns
-            p &copy; Copyright no one at all. Go to town.
-
-          .large-6.columns
-            ul.inline-list.right
-              a(href='#') Link 1
-
-              a(href='#') Link 2
-
-              a(href='#') Link 3
-
-              a(href='#') Link 4
+                a(href='#') Link 4
 
 
     block content
@@ -99,11 +95,13 @@ html
     script(src="/js/jquery.js")
     script(src="/js/foundation.min.js")
     script(src='//code.jquery.com/ui/1.11.4/jquery-ui.js')
-    script(src="/js/autoComplete.js")
-    script(src="/js/cityTypes.js")
-    script(src="/js/jobTypes.js")
-    script(src="/js/salaryTypes.js")
-    script(src="/js/houseTypes.js")
+    script(src="/js/autocomplete/autoComplete.js")
+    script(src="/js/autocomplete/cityTypes.js")
+    script(src="/js/autocomplete/jobTypes.js")
+    script(src="/js/autocomplete/salaryTypes.js")
+    script(src="/js/autocomplete/houseTypes.js")
+    script(src="/js/autocomplete/jobCatTypes.js")
+    script(src="/js/autocomplete/casscadingAutoComplete.js")
 
 
 
