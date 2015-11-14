@@ -3299,6 +3299,76 @@ body {
   background: aqua; }
 
 /* line 14, stdin */
+a {
+  text-decoration: none; }
+
+/* line 17, stdin */
+.main-header {
+  background: blue; }
+
+/* line 21, stdin */
+.content {
+  background: brown; }
+
+/* line 24, stdin */
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: green;
+  overflow-y: auto;
+  transition: width 0.3s ease; }
+  /* line 32, stdin */
+  .main-nav a {
+    display: block;
+    background: linear-gradient(#3E3E3E, #383838);
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #2E2E2E;
+    color: white;
+    padding: 15px; }
+    /* line 39, stdin */
+    .main-nav a:hover, .main-nav a:focus {
+      background: linear-gradient(#484848, #383838); }
+  /* line 43, stdin */
+  .main-nav:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 34px;
+    background: linear-gradient(left, transparent, rgba(0, 0, 0, 0.4)); }
+
+/* line 53, stdin */
+.close-menu {
+  display: none; }
+
+/* line 56, stdin */
+.page-wrap {
+  float: right;
+  width: 100%;
+  transition: width 0.3s ease; }
+
+/* line 61, stdin */
+#main-nav:target {
+  width: 30%; }
+
+/* line 64, stdin */
+#main-nav:target + .page-wrap {
+  width: 70%; }
+  /* line 66, stdin */
+  #main-nav:target + .page-wrap .open-menu {
+    display: none; }
+  /* line 69, stdin */
+  #main-nav:target + .page-wrap .close-menu {
+    display: block; }
+  /* line 72, stdin */
+  #main-nav:target + .page-wrap .main-header {
+    width: 70%;
+    left: 30%; }
+
+/* line 85, stdin */
 .ui-autocomplete {
   max-height: 100px;
   overflow-y: auto;
@@ -3308,27 +3378,31 @@ body {
 /* IE 6 doesn't support max-height
    * we use height instead, but this forces the menu to always be this tall
    */
-/* line 23, stdin */
+/* line 94, stdin */
 * html .ui-autocomplete {
   height: 100px; }
 
-/* line 26, stdin */
+/* line 97, stdin */
 #salary-bar {
   background: green; }
 
-/* line 29, stdin */
+/* line 100, stdin */
 #map {
   background: brown; }
 
-/* line 32, stdin */
+/* line 103, stdin */
 #list {
   background: gray; }
 
-/* line 35, stdin */
+/* line 106, stdin */
 #footer {
   background: yellow; }
 
-/* line 39, stdin */
+/* line 110, stdin */
 #filter-bar {
   padding-top: 30px;
   background: white; }
+
+/* line 118, stdin */
+* {
+  box-sizing: border-box; }
