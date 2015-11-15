@@ -9316,58 +9316,60 @@ WY,Wyoming,Healthcare,Dental Assistants,33540
 GU,Guam,Healthcare,Dental Assistants,28270
 PR,Puerto Rico,Healthcare,Dental Assistants,17740
 VI,Virgin Islands,Healthcare,Dental Assistants,30150
-AL,Alabama,Dental Hygienists,44070
-AK,Alaska,Dental Hygienists,75670
-AZ,Arizona,Dental Hygienists,82050
-AR,Arkansas,Dental Hygienists,62060
-CA,California,Dental Hygienists,94370
-CO,Colorado,Dental Hygienists,78530
-CT,Connecticut,Dental Hygienists,80170
-DE,Delaware,Dental Hygienists,70660
-DC,District of Columbia,Dental Hygienists,95570
-FL,Florida,Dental Hygienists,63400
-GA,Georgia,Dental Hygienists,63710
-HI,Hawaii,Dental Hygienists,69560
-ID,Idaho,Dental Hygienists,70980
-IL,Illinois,Dental Hygienists,68390
-IN,Indiana,Dental Hygienists,65100
-IA,Iowa,Dental Hygienists,67320
-KS,Kansas,Dental Hygienists,69640
-KY,Kentucky,Dental Hygienists,57490
-LA,Louisiana,Dental Hygienists,58290
-ME,Maine,Dental Hygienists,65540
-MD,Maryland,Dental Hygienists,81540
-MA,Massachusetts,Dental Hygienists,80590
-MI,Michigan,Dental Hygienists,59520
-MN,Minnesota,Dental Hygienists,70390
-MS,Mississippi,Dental Hygienists,53310
-MO,Missouri,Dental Hygienists,67760
-MT,Montana,Dental Hygienists,68590
-NE,Nebraska,Dental Hygienists,64030
-NV,Nevada,Dental Hygienists,89320
-NH,New Hampshire,Dental Hygienists,79170
-NJ,New Jersey,Dental Hygienists,81640
-NM,New Mexico,Dental Hygienists,75600
-NY,New York,Dental Hygienists,69120
-NC,North Carolina,Dental Hygienists,66510
-ND,North Dakota,Dental Hygienists,63030
-OH,Ohio,Dental Hygienists,65920
-OK,Oklahoma,Dental Hygienists,64900
-OR,Oregon,Dental Hygienists,76920
-PA,Pennsylvania,Dental Hygienists,61530
-RI,Rhode Island,Dental Hygienists,70590
-SC,South Carolina,Dental Hygienists,54430
-SD,South Dakota,Dental Hygienists,57880
-TN,Tennessee,Dental Hygienists,64380
-TX,Texas,Dental Hygienists,71980
-UT,Utah,Dental Hygienists,68610
-VT,Vermont,Dental Hygienists,62160
-VA,Virginia,Dental Hygienists,79380
-WA,Washington,Dental Hygienists,91370
-WV,West Virginia,Dental Hygienists,54680
-WI,Wisconsin,Dental Hygienists,62450
-WY,Wyoming,Dental Hygienists,67950
-GU,Guam,Dental Hygienists,33500
+
+AL,Alabama,Healthcare,Dental Hygienists,44070
+AK,Alaska,Healthcare,Dental Hygienists,75670
+AZ,Arizona,Healthcare,Dental Hygienists,82050
+AR,Arkansas,Healthcare,Dental Hygienists,62060
+CA,California,Healthcare,Dental Hygienists,94370
+CO,Colorado,Healthcare,Dental Hygienists,78530
+CT,Connecticut,Healthcare,Dental Hygienists,80170
+DE,Delaware,Healthcare,Dental Hygienists,70660
+DC,District of Columbia,Healthcare,Dental Hygienists,95570
+FL,Florida,Healthcare,Dental Hygienists,63400
+GA,Georgia,Healthcare,Dental Hygienists,63710
+HI,Hawaii,Healthcare,Dental Hygienists,69560
+ID,Idaho,Healthcare,Dental Hygienists,70980
+IL,Illinois,Healthcare,Dental Hygienists,68390
+IN,Indiana,Healthcare,Dental Hygienists,65100
+IA,Iowa,Healthcare,Dental Hygienists,67320
+KS,Kansas,Healthcare,Dental Hygienists,69640
+KY,Kentucky,Healthcare,Dental Hygienists,57490
+LA,Louisiana,Healthcare,Dental Hygienists,58290
+ME,Maine,Healthcare,Dental Hygienists,65540
+MD,Maryland,Healthcare,Dental Hygienists,81540
+MA,Massachusetts,Healthcare,Dental Hygienists,80590
+MI,Michigan,Healthcare,Dental Hygienists,59520
+MN,Minnesota,Healthcare,Dental Hygienists,70390
+MS,Mississippi,Healthcare,Dental Hygienists,53310
+MO,Missouri,Healthcare,Dental Hygienists,67760
+MT,Montana,Healthcare,Dental Hygienists,68590
+NE,Nebraska,Healthcare,Dental Hygienists,64030
+NV,Nevada,Healthcare,Dental Hygienists,89320
+NH,New Hampshire,Healthcare,Dental Hygienists,79170
+NJ,New Jersey,Healthcare,Dental Hygienists,81640
+NM,New Mexico,Healthcare,Dental Hygienists,75600
+NY,New York,Healthcare,Dental Hygienists,69120
+NC,North Carolina,Healthcare,Dental Hygienists,66510
+ND,North Dakota,Healthcare,Dental Hygienists,63030
+OH,Ohio,Healthcare,Dental Hygienists,65920
+OK,Oklahoma,Healthcare,Dental Hygienists,64900
+OR,Oregon,Healthcare,Dental Hygienists,76920
+PA,Pennsylvania,Healthcare,Dental Hygienists,61530
+RI,Rhode Island,Healthcare,Dental Hygienists,70590
+SC,South Carolina,Healthcare,Dental Hygienists,54430
+SD,South Dakota,Healthcare,Dental Hygienists,57880
+TN,Tennessee,Healthcare,Dental Hygienists,64380
+TX,Texas,Healthcare,Dental Hygienists,71980
+UT,Utah,Healthcare,Dental Hygienists,68610
+VT,Vermont,Healthcare,Dental Hygienists,62160
+VA,Virginia,Healthcare,Dental Hygienists,79380
+WA,Washington,Healthcare,Dental Hygienists,91370
+WV,West Virginia,Healthcare,Dental Hygienists,54680
+WI,Wisconsin,Healthcare,Dental Hygienists,62450
+WY,Wyoming,Healthcare,Dental Hygienists,67950
+GU,Guam,Healthcare,Dental Hygienists,33500
+
 AL,Alabama,Dental Laboratory Technicians,34020
 AK,Alaska,Dental Laboratory Technicians,54180
 AZ,Arizona,Dental Laboratory Technicians,36130

@@ -6,18 +6,12 @@
 @import 'foundation/components/visibility';
 @import 'foundation/components/side-nav';
 
-
-
 body{
   background: aqua;
-}
-a {
-  text-decoration: none;
 }
 .main-header{
   background: blue;
 }
-
 .content{
   background: brown;
 }
@@ -26,15 +20,17 @@ a {
   top: 0;
   width: 0;
   height: 100%;
-  background: green;
+  background: purple;
   overflow-y: auto;
   transition: width 0.3s ease;
+
   a {
     display: block;
     background: linear-gradient(#3E3E3E, #383838);
     border-top: 1px solid #484848;
     border-bottom: 1px solid #2E2E2E;
     color: white;
+    text-decoration: none;
     padding: 15px;
     &:hover, &:focus {
       background: linear-gradient(#484848, #383838);
@@ -48,8 +44,17 @@ a {
     height: 100%;
     width: 34px;
     background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4));
-  }}
-
+  }
+  p {
+    display: block;
+    background: linear-gradient(#3E3E3E, #A4A4A4);
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #2E2E2E;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+}
 .close-menu {
   display: none;
 }
@@ -73,6 +78,22 @@ a {
     width: 70%;
     left: 30%;
   }
+}
+#jobDetails{
+  display: none;
+    p {
+    display: block;
+    background: red;
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #2E2E2E;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+}
+#jobDetails:target{
+  display: block;
+
 }
 .ui-autocomplete {
   max-height: 100px;
@@ -103,95 +124,14 @@ a {
   padding-top: 30px;
   background: white;
 }
-
-// __________________________________________
-// @import "compass/css3";
+.jobCat{
+  text-align: center;
+}
 
 * {
   box-sizing: border-box;
 }
 
-// html, body { min-height: 100%; }
-// a { text-decoration: none; }
-
-
-// .main-header {
-//   background: linear-gradient(#3F94BF, #246485);
-//   padding: 5px;
-//   text-align: center;
-//   color: white;
-//   text-shadow: #222 0px -1px 1px;
-//   position: fixed;
-//   width: 100%;
-//   left: 0;
-//   transition: all 0.3s ease;
-//   a {
-//     position: absolute;
-//     left: 20px;
-//     top: 20px;
-//     color: white;
-//     font-size: 32px;
-//   }
-// }
-
-// .page-wrap {
-//   float: right;
-//   width: 100%;
-//   transition: width 0.3s ease;
-// }
-
-// .main-nav {
-//   position: fixed;
-//   top: 0;
-//   width: 0;
-//   height: 100%;
-//   background: green;
-//   overflow-y: auto;
-//   transition: width 0.3s ease;
-//   a {
-//     display: block;
-//     background: linear-gradient(#3E3E3E, #383838);
-//     border-top: 1px solid #484848;
-//     border-bottom: 1px solid #2E2E2E;
-//     color: white;
-//     padding: 15px;
-//     &:hover, &:focus {
-//       background: linear-gradient(#484848, #383838);
-//     }
-//   }
-//   &:after {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     height: 100%;
-//     width: 34px;
-//     background: linear-gradient(left, rgba(black, 0), rgba(black, 0.4));
-//   }
-// }
-
-// .content {
-//   padding: 100px 20px 20px 20px;
-// }
-
-// .close-menu {
-//   display: none;
-// }
-
-// #main-nav:target {
-//   padding-top: 150px;
-//   width: 30%;
-// }
-// #main-nav:target + .page-wrap {
-//   width: 70%;
-//   .open-menu {
-//      display: none;
-//   }
-//   .close-menu {
-//      display: block;
-//   }
-//   .main-header {
-//     width: 70%;
-//     left: 30%;
-//   }
-// }
+#apply{
+  margin-bottom: none;
+}
