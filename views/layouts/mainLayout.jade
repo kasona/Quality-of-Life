@@ -12,21 +12,27 @@ html
 
     .main-nav#main-nav
 
-      a.button(href="#").close-menu#searchSubmit Close
+      a.button(href="#")#searchSubmit Close
       .jobCat
         h2
-          a(href='#') Transportation
-      .jobTit
+          a(href='#main-nav') Transportation
+      .jobTitle#jobTitle
         h3
-          a(href='#') Van Driver
-      .comp
-        a(href='#') YHata
-      .cityState
-        a(href='#') Honolulu, HI
-      .snippet
-        a(href='#')
+          p CDL Driver
+
+      .jobDetails#jobDetails
+
+        #comp
+          p YHata
+        #cityState
+          p Honolulu, HI
+        #snippet
           p.
-            It’s all about playing four quarters. I think we played well but the other team played well too. They took advantage of certain circumstances that arose. It’s a physical game.
+            It’s all about playing four quarters# I think we played well but the other team played well too# They took advantage of certain circumstances that arose# It’s a physical game#
+        #date-apply
+          .date
+            p Nov. 13, 2015
+              a.button(href="#").right#apply Apply
 
     .page-wrap
       //- .row.main-header
@@ -89,7 +95,7 @@ html
 
                 a(href='#') Link 4
 
-    block content
+    //- block content
     //- script(src='//code.jquery.com/jquery-1.10.2.js')
     script(src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.0.5/bluebird.js")
@@ -103,7 +109,6 @@ html
     script(src="/js/autocomplete/salaryTypes.js")
     script(src="/js/autocomplete/houseTypes.js")
     script(src="/js/autocomplete/jobCatTypes.js")
-    script(src="/js/autocomplete/casscadingAutoComplete.js")
     script.
       $(document).foundation();
 

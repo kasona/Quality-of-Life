@@ -1,61 +1,61 @@
-/* line 431, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 431, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.3/"; }
 
-/* line 435, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 435, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen/";
   width: 0; }
 
-/* line 440, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 440, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small-only {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0; }
 
-/* line 445, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 445, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
   font-family: "/only screen and (min-width:40.0625em)/";
   width: 40.0625em; }
 
-/* line 450, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 450, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium-only {
   font-family: "/only screen and (min-width:40.0625em) and (max-width:64em)/";
   width: 40.0625em; }
 
-/* line 455, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 455, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
   font-family: "/only screen and (min-width:64.0625em)/";
   width: 64.0625em; }
 
-/* line 460, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 460, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large-only {
   font-family: "/only screen and (min-width:64.0625em) and (max-width:90em)/";
   width: 64.0625em; }
 
-/* line 465, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 465, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
   font-family: "/only screen and (min-width:90.0625em)/";
   width: 90.0625em; }
 
-/* line 470, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 470, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge-only {
   font-family: "/only screen and (min-width:90.0625em) and (max-width:120em)/";
   width: 90.0625em; }
 
-/* line 475, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 475, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.0625em)/";
   width: 120.0625em; }
 
-/* line 480, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 480, bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-data-attribute-namespace {
   font-family: false; }
 
-/* line 489, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 489, bower_components/foundation/scss/foundation/components/_global.scss */
 html, body {
   height: 100%; }
 
-/* line 492, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 492, bower_components/foundation/scss/foundation/components/_global.scss */
 *,
 *:before,
 *:after {
@@ -63,12 +63,12 @@ html, body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 498, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 498, bower_components/foundation/scss/foundation/components/_global.scss */
 html,
 body {
   font-size: 100%; }
 
-/* line 502, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 502, bower_components/foundation/scss/foundation/components/_global.scss */
 body {
   background: #fff;
   color: #222;
@@ -81,20 +81,20 @@ body {
   padding: 0;
   position: relative; }
 
-/* line 515, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 515, bower_components/foundation/scss/foundation/components/_global.scss */
 a:hover {
   cursor: pointer; }
 
-/* line 518, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 518, bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 520, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 520, bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   -ms-interpolation-mode: bicubic; }
 
-/* line 525, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 525, bower_components/foundation/scss/foundation/components/_global.scss */
 #map_canvas img,
 #map_canvas embed,
 #map_canvas object,
@@ -106,47 +106,47 @@ img {
 .mqa-display object {
   max-width: none !important; }
 
-/* line 532, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 532, bower_components/foundation/scss/foundation/components/_global.scss */
 .left {
   float: left !important; }
 
-/* line 533, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 533, bower_components/foundation/scss/foundation/components/_global.scss */
 .right {
   float: right !important; }
 
-/* line 239, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 239, bower_components/foundation/scss/foundation/components/_global.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
 
-/* line 240, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 240, bower_components/foundation/scss/foundation/components/_global.scss */
 .clearfix:after {
   clear: both; }
 
-/* line 537, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 537, bower_components/foundation/scss/foundation/components/_global.scss */
 .hide {
   display: none; }
 
-/* line 542, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 542, bower_components/foundation/scss/foundation/components/_global.scss */
 .invisible {
   visibility: hidden; }
 
-/* line 548, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 548, bower_components/foundation/scss/foundation/components/_global.scss */
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 551, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 551, bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 561, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 561, bower_components/foundation/scss/foundation/components/_global.scss */
 textarea {
   height: auto;
   min-height: 50px; }
 
-/* line 564, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 564, bower_components/foundation/scss/foundation/components/_global.scss */
 select {
   width: 100%; }
 
@@ -155,11 +155,11 @@ select {
   margin: 0 auto;
   max-width: 93.75rem;
   width: 100%; }
-  /* line 239, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 239, bower_components/foundation/scss/foundation/components/_global.scss */
   .row:before, .row:after {
     content: " ";
     display: table; }
-  /* line 240, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 240, bower_components/foundation/scss/foundation/components/_global.scss */
   .row:after {
     clear: both; }
   /* line 227, bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -176,11 +176,11 @@ select {
     margin: 0 -0.9375rem;
     max-width: none;
     width: auto; }
-    /* line 239, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 239, bower_components/foundation/scss/foundation/components/_global.scss */
     .row .row:before, .row .row:after {
       content: " ";
       display: table; }
-    /* line 240, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 240, bower_components/foundation/scss/foundation/components/_global.scss */
     .row .row:after {
       clear: both; }
     /* line 234, bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -188,11 +188,11 @@ select {
       margin: 0;
       max-width: none;
       width: auto; }
-      /* line 239, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+      /* line 239, bower_components/foundation/scss/foundation/components/_global.scss */
       .row .row.collapse:before, .row .row.collapse:after {
         content: " ";
         display: table; }
-      /* line 240, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+      /* line 240, bower_components/foundation/scss/foundation/components/_global.scss */
       .row .row.collapse:after {
         clear: both; }
 
@@ -1717,33 +1717,33 @@ button::-moz-focus-inner {
       left: 0 !important; }
 
 /* Standard Forms */
-/* line 385, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 385, bower_components/foundation/scss/foundation/components/_forms.scss */
 form {
   margin: 0 0 1rem; }
 
 /* Using forms within rows, we need to set some defaults */
-/* line 91, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 91, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row {
   margin: 0 -0.5rem; }
-  /* line 93, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 93, bower_components/foundation/scss/foundation/components/_forms.scss */
   form .row .row .column,
   form .row .row .columns {
     padding: 0 0.5rem; }
-  /* line 97, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 97, bower_components/foundation/scss/foundation/components/_forms.scss */
   form .row .row.collapse {
     margin: 0; }
-    /* line 99, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+    /* line 99, bower_components/foundation/scss/foundation/components/_forms.scss */
     form .row .row.collapse .column,
     form .row .row.collapse .columns {
       padding: 0; }
-    /* line 101, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+    /* line 101, bower_components/foundation/scss/foundation/components/_forms.scss */
     form .row .row.collapse input {
       -webkit-border-bottom-right-radius: 0;
       -webkit-border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       border-top-right-radius: 0; }
 
-/* line 107, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 107, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row input.column,
 form .row input.columns,
 form .row textarea.column,
@@ -1751,7 +1751,7 @@ form .row textarea.columns {
   padding-left: 0.5rem; }
 
 /* Label Styles */
-/* line 391, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 391, bower_components/foundation/scss/foundation/components/_forms.scss */
 label {
   color: #4d4d4d;
   cursor: pointer;
@@ -1761,21 +1761,21 @@ label {
   line-height: 1.5;
   margin-bottom: 0;
   /* Styles for required inputs */ }
-  /* line 392, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 392, bower_components/foundation/scss/foundation/components/_forms.scss */
   label.right {
     float: none !important;
     text-align: right; }
-  /* line 393, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 393, bower_components/foundation/scss/foundation/components/_forms.scss */
   label.inline {
     margin: 0 0 1rem 0;
     padding: 0.5625rem 0; }
-  /* line 395, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 395, bower_components/foundation/scss/foundation/components/_forms.scss */
   label small {
     text-transform: capitalize;
     color: #676767; }
 
 /* Attach elements to the beginning or end of an input */
-/* line 402, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 402, bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix,
 .postfix {
   border-style: solid;
@@ -1793,7 +1793,7 @@ label {
   z-index: 2; }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
-/* line 406, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 406, bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button {
   border: none;
   padding-left: 0;
@@ -1802,7 +1802,7 @@ label {
   padding-top: 0;
   text-align: center; }
 
-/* line 407, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 407, bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix.button {
   border: none;
   padding-left: 0;
@@ -1811,7 +1811,7 @@ label {
   padding-top: 0;
   text-align: center; }
 
-/* line 409, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 409, bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix.button.radius {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 3px;
@@ -1819,7 +1819,7 @@ label {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-/* line 410, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 410, bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button.radius {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 3px;
@@ -1827,7 +1827,7 @@ label {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px; }
 
-/* line 411, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 411, bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix.button.round {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 1000px;
@@ -1835,7 +1835,7 @@ label {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-/* line 412, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 412, bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button.round {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 1000px;
@@ -1844,14 +1844,14 @@ label {
   border-top-right-radius: 1000px; }
 
 /* Separate prefix and postfix styles when on span or label so buttons keep their own */
-/* line 415, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 415, bower_components/foundation/scss/foundation/components/_forms.scss */
 span.prefix, label.prefix {
   background: #f2f2f2;
   border-right: none;
   color: #333333;
   border-color: #cccccc; }
 
-/* line 416, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 416, bower_components/foundation/scss/foundation/components/_forms.scss */
 span.postfix, label.postfix {
   background: #f2f2f2;
   border-left: none;
@@ -1859,7 +1859,7 @@ span.postfix, label.postfix {
   border-color: #cccccc; }
 
 /* We use this to get basic styling on all basic form elements */
-/* line 419, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 419, bower_components/foundation/scss/foundation/components/_forms.scss */
 input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1885,16 +1885,16 @@ input:not([type]), input[type="text"], input[type="password"], input[type="date"
   -ms-transition: border-color 0.15s linear, background 0.15s linear;
   -o-transition: border-color 0.15s linear, background 0.15s linear;
   transition: border-color 0.15s linear, background 0.15s linear; }
-  /* line 137, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 137, bower_components/foundation/scss/foundation/components/_forms.scss */
   input:not([type]):focus, input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
     background: #fafafa;
     border-color: #999999;
     outline: none; }
-  /* line 143, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 143, bower_components/foundation/scss/foundation/components/_forms.scss */
   input:not([type]):disabled, input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, textarea:disabled {
     background-color: #DDDDDD;
     cursor: default; }
-  /* line 149, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 149, bower_components/foundation/scss/foundation/components/_forms.scss */
   input:not([type])[disabled], input:not([type])[readonly],
   fieldset[disabled] input:not([type]), input[type="text"][disabled], input[type="text"][readonly],
   fieldset[disabled] input[type="text"], input[type="password"][disabled], input[type="password"][readonly],
@@ -1914,11 +1914,11 @@ input:not([type]), input[type="text"], input[type="password"], input[type="date"
   fieldset[disabled] textarea {
     background-color: #DDDDDD;
     cursor: default; }
-  /* line 431, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 431, bower_components/foundation/scss/foundation/components/_forms.scss */
   input:not([type]).radius, input[type="text"].radius, input[type="password"].radius, input[type="date"].radius, input[type="datetime"].radius, input[type="datetime-local"].radius, input[type="month"].radius, input[type="week"].radius, input[type="email"].radius, input[type="number"].radius, input[type="search"].radius, input[type="tel"].radius, input[type="time"].radius, input[type="url"].radius, input[type="color"].radius, textarea.radius {
     border-radius: 3px; }
 
-/* line 439, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 439, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-radius.row.collapse input,
 form .row .prefix-radius.row.collapse textarea,
 form .row .prefix-radius.row.collapse select,
@@ -1929,7 +1929,7 @@ form .row .prefix-radius.row.collapse button {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px; }
 
-/* line 443, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 443, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-radius.row.collapse .prefix {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 3px;
@@ -1937,7 +1937,7 @@ form .row .prefix-radius.row.collapse .prefix {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-/* line 446, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 446, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-radius.row.collapse input,
 form .row .postfix-radius.row.collapse textarea,
 form .row .postfix-radius.row.collapse select,
@@ -1948,7 +1948,7 @@ form .row .postfix-radius.row.collapse button {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-/* line 450, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 450, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-radius.row.collapse .postfix {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 3px;
@@ -1956,7 +1956,7 @@ form .row .postfix-radius.row.collapse .postfix {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px; }
 
-/* line 453, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 453, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-round.row.collapse input,
 form .row .prefix-round.row.collapse textarea,
 form .row .prefix-round.row.collapse select,
@@ -1967,7 +1967,7 @@ form .row .prefix-round.row.collapse button {
   border-bottom-right-radius: 1000px;
   border-top-right-radius: 1000px; }
 
-/* line 457, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 457, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-round.row.collapse .prefix {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 1000px;
@@ -1975,7 +1975,7 @@ form .row .prefix-round.row.collapse .prefix {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-/* line 460, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 460, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-round.row.collapse input,
 form .row .postfix-round.row.collapse textarea,
 form .row .postfix-round.row.collapse select,
@@ -1986,7 +1986,7 @@ form .row .postfix-round.row.collapse button {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-/* line 464, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 464, bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-round.row.collapse .postfix {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 1000px;
@@ -1994,42 +1994,42 @@ form .row .postfix-round.row.collapse .postfix {
   border-bottom-right-radius: 1000px;
   border-top-right-radius: 1000px; }
 
-/* line 469, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 469, bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0; }
 
 /* Respect enforced amount of rows for textarea */
-/* line 476, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 476, bower_components/foundation/scss/foundation/components/_forms.scss */
 textarea[rows] {
   height: auto; }
 
 /* Not allow resize out of parent */
-/* line 481, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 481, bower_components/foundation/scss/foundation/components/_forms.scss */
 textarea {
   max-width: 100%; }
 
-/* line 486, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 486, bower_components/foundation/scss/foundation/components/_forms.scss */
 ::-webkit-input-placeholder {
   color: #666666; }
 
-/* line 490, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 490, bower_components/foundation/scss/foundation/components/_forms.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: #666666; }
 
-/* line 494, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 494, bower_components/foundation/scss/foundation/components/_forms.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #666666; }
 
-/* line 498, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 498, bower_components/foundation/scss/foundation/components/_forms.scss */
 :-ms-input-placeholder {
   color: #666666; }
 
 /* Add height value for select elements to match text input height */
-/* line 504, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 504, bower_components/foundation/scss/foundation/components/_forms.scss */
 select {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
@@ -2048,33 +2048,33 @@ select {
   padding: 0.5rem;
   border-radius: 0;
   height: 2.3125rem; }
-  /* line 335, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 335, bower_components/foundation/scss/foundation/components/_forms.scss */
   select::-ms-expand {
     display: none; }
-  /* line 358, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 358, bower_components/foundation/scss/foundation/components/_forms.scss */
   select.radius {
     border-radius: 3px; }
-  /* line 359, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 359, bower_components/foundation/scss/foundation/components/_forms.scss */
   select:focus {
     background-color: #f3f3f3;
     border-color: #999999; }
-  /* line 364, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 364, bower_components/foundation/scss/foundation/components/_forms.scss */
   select:disabled {
     background-color: #DDDDDD;
     cursor: default; }
-  /* line 507, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 507, bower_components/foundation/scss/foundation/components/_forms.scss */
   select[multiple] {
     height: auto; }
 
 /* Adjust margin for form elements below */
-/* line 513, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 513, bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"],
 input[type="checkbox"],
 input[type="radio"],
 select {
   margin: 0 0 1rem 0; }
 
-/* line 520, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 520, bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   display: inline-block;
@@ -2084,18 +2084,18 @@ input[type="radio"] + label {
   vertical-align: baseline; }
 
 /* Normalize file input width */
-/* line 530, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 530, bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"] {
   width: 100%; }
 
 /* HTML5 Number spinners settings */
 /* We add basic fieldset styling */
-/* line 544, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 544, bower_components/foundation/scss/foundation/components/_forms.scss */
 fieldset {
   border: 1px solid #DDDDDD;
   margin: 1.125rem 0;
   padding: 1.25rem; }
-  /* line 278, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 278, bower_components/foundation/scss/foundation/components/_forms.scss */
   fieldset legend {
     font-weight: bold;
     margin: 0;
@@ -2103,7 +2103,7 @@ fieldset {
     padding: 0 0.1875rem; }
 
 /* Error Handling */
-/* line 551, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 551, bower_components/foundation/scss/foundation/components/_forms.scss */
 [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
   display: block;
   font-size: 0.75rem;
@@ -2115,11 +2115,11 @@ fieldset {
   background: #f04124;
   color: #FFFFFF; }
 
-/* line 554, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 554, bower_components/foundation/scss/foundation/components/_forms.scss */
 [data-abide] span.error, [data-abide] small.error {
   display: none; }
 
-/* line 557, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 557, bower_components/foundation/scss/foundation/components/_forms.scss */
 span.error, small.error {
   display: block;
   font-size: 0.75rem;
@@ -2131,23 +2131,23 @@ span.error, small.error {
   background: #f04124;
   color: #FFFFFF; }
 
-/* line 562, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 562, bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input,
 .error textarea,
 .error select {
   margin-bottom: 0; }
 
-/* line 568, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 568, bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input[type="checkbox"],
 .error input[type="radio"] {
   margin-bottom: 1rem; }
 
-/* line 573, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 573, bower_components/foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
   color: #f04124; }
 
-/* line 578, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 578, bower_components/foundation/scss/foundation/components/_forms.scss */
 .error small.error {
   display: block;
   font-size: 0.75rem;
@@ -2159,7 +2159,7 @@ span.error, small.error {
   background: #f04124;
   color: #FFFFFF; }
 
-/* line 583, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 583, bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > label > small {
   background: transparent;
   color: #676767;
@@ -2170,17 +2170,17 @@ span.error, small.error {
   padding: 0;
   text-transform: capitalize; }
 
-/* line 595, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 595, bower_components/foundation/scss/foundation/components/_forms.scss */
 .error span.error-message {
   display: block; }
 
-/* line 600, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 600, bower_components/foundation/scss/foundation/components/_forms.scss */
 input.error,
 textarea.error,
 select.error {
   margin-bottom: 0; }
 
-/* line 605, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 605, bower_components/foundation/scss/foundation/components/_forms.scss */
 label.error {
   color: #f04124; }
 
@@ -2307,7 +2307,7 @@ meta.foundation-mq-topbar {
         line-height: 33px;
         padding: 0 2.5rem 0 0.9375rem;
         position: relative; }
-        /* line 196, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+        /* line 196, bower_components/foundation/scss/foundation/components/_global.scss */
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           display: block;
@@ -2318,7 +2318,7 @@ meta.foundation-mq-topbar {
           right: 0.9375rem;
           box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
           width: 16px; }
-        /* line 229, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+        /* line 229, bower_components/foundation/scss/foundation/components/_global.scss */
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
   /* line 268, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2386,10 +2386,10 @@ meta.foundation-mq-topbar {
         background-color: #008CBA;
         border-color: #007095;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           background-color: #007095; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: #FFFFFF; }
       /* line 352, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2397,10 +2397,10 @@ meta.foundation-mq-topbar {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
         color: #333333; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
           background-color: #b9b9b9; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
           color: #333333; }
       /* line 353, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2408,10 +2408,10 @@ meta.foundation-mq-topbar {
         background-color: #43AC6A;
         border-color: #368a55;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
           background-color: #368a55; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
           color: #FFFFFF; }
       /* line 354, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2419,10 +2419,10 @@ meta.foundation-mq-topbar {
         background-color: #f04124;
         border-color: #cf2a0e;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
           background-color: #cf2a0e; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
           color: #FFFFFF; }
       /* line 355, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2430,10 +2430,10 @@ meta.foundation-mq-topbar {
         background-color: #f08a24;
         border-color: #cf6e0e;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
           background-color: #cf6e0e; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
           color: #FFFFFF; }
       /* line 356, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2441,10 +2441,10 @@ meta.foundation-mq-topbar {
         background-color: #a0d3e8;
         border-color: #61b6d9;
         color: #333333; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.info:hover, .top-bar-section ul li > a.button.info:focus {
           background-color: #61b6d9; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.info:hover, .top-bar-section ul li > a.button.info:focus {
           color: #FFFFFF; }
     /* line 359, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2455,10 +2455,10 @@ meta.foundation-mq-topbar {
       background-color: #008CBA;
       border-color: #007095;
       color: #FFFFFF; }
-      /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         background-color: #007095; }
-      /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: #FFFFFF; }
       /* line 365, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2466,10 +2466,10 @@ meta.foundation-mq-topbar {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
         color: #333333; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
           background-color: #b9b9b9; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
           color: #333333; }
       /* line 366, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2477,10 +2477,10 @@ meta.foundation-mq-topbar {
         background-color: #43AC6A;
         border-color: #368a55;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
           background-color: #368a55; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
           color: #FFFFFF; }
       /* line 367, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2488,10 +2488,10 @@ meta.foundation-mq-topbar {
         background-color: #f04124;
         border-color: #cf2a0e;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
           background-color: #cf2a0e; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
           color: #FFFFFF; }
       /* line 368, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2499,10 +2499,10 @@ meta.foundation-mq-topbar {
         background-color: #f08a24;
         border-color: #cf6e0e;
         color: #FFFFFF; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
           background-color: #cf6e0e; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
           color: #FFFFFF; }
       /* line 369, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2510,10 +2510,10 @@ meta.foundation-mq-topbar {
         background-color: #a0d3e8;
         border-color: #61b6d9;
         color: #333333; }
-        /* line 163, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 163, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.info:hover, .top-bar-section ul li > button.info:focus {
           background-color: #61b6d9; }
-        /* line 169, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 169, bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.info:hover, .top-bar-section ul li > button.info:focus {
           color: #FFFFFF; }
     /* line 373, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -2626,11 +2626,11 @@ meta.foundation-mq-topbar {
   .top-bar {
     background: #333333;
     overflow: visible; }
-    /* line 239, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 239, bower_components/foundation/scss/foundation/components/_global.scss */
     .top-bar:before, .top-bar:after {
       content: " ";
       display: table; }
-    /* line 240, /Users/kasi/DevLeague/Quality-of-Life/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 240, bower_components/foundation/scss/foundation/components/_global.scss */
     .top-bar:after {
       clear: both; }
     /* line 497, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3294,43 +3294,40 @@ th.hide-for-touch {
       font-weight: bold;
       text-transform: uppercase; }
 
-/* line 11, stdin */
+/* line 9, stdin */
 body {
   background: aqua; }
 
-/* line 14, stdin */
-a {
-  text-decoration: none; }
-
-/* line 17, stdin */
+/* line 12, stdin */
 .main-header {
   background: blue; }
 
-/* line 21, stdin */
+/* line 15, stdin */
 .content {
   background: brown; }
 
-/* line 24, stdin */
+/* line 18, stdin */
 .main-nav {
   position: fixed;
   top: 0;
   width: 0;
   height: 100%;
-  background: green;
+  background: purple;
   overflow-y: auto;
   transition: width 0.3s ease; }
-  /* line 32, stdin */
+  /* line 27, stdin */
   .main-nav a {
     display: block;
     background: linear-gradient(#3E3E3E, #383838);
     border-top: 1px solid #484848;
     border-bottom: 1px solid #2E2E2E;
     color: white;
+    text-decoration: none;
     padding: 15px; }
-    /* line 39, stdin */
+    /* line 35, stdin */
     .main-nav a:hover, .main-nav a:focus {
       background: linear-gradient(#484848, #383838); }
-  /* line 43, stdin */
+  /* line 39, stdin */
   .main-nav:after {
     content: "";
     position: absolute;
@@ -3339,36 +3336,62 @@ a {
     height: 100%;
     width: 34px;
     background: linear-gradient(left, transparent, rgba(0, 0, 0, 0.4)); }
+  /* line 48, stdin */
+  .main-nav p {
+    display: block;
+    background: linear-gradient(#3E3E3E, #A4A4A4);
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #2E2E2E;
+    color: white;
+    text-decoration: none;
+    padding: 15px; }
 
-/* line 53, stdin */
+/* line 58, stdin */
 .close-menu {
   display: none; }
 
-/* line 56, stdin */
+/* line 61, stdin */
 .page-wrap {
   float: right;
   width: 100%;
   transition: width 0.3s ease; }
 
-/* line 61, stdin */
+/* line 66, stdin */
 #main-nav:target {
   width: 30%; }
 
-/* line 64, stdin */
+/* line 69, stdin */
 #main-nav:target + .page-wrap {
   width: 70%; }
-  /* line 66, stdin */
+  /* line 71, stdin */
   #main-nav:target + .page-wrap .open-menu {
     display: none; }
-  /* line 69, stdin */
+  /* line 74, stdin */
   #main-nav:target + .page-wrap .close-menu {
     display: block; }
-  /* line 72, stdin */
+  /* line 77, stdin */
   #main-nav:target + .page-wrap .main-header {
     width: 70%;
     left: 30%; }
 
-/* line 85, stdin */
+/* line 82, stdin */
+#jobDetails {
+  display: none; }
+  /* line 84, stdin */
+  #jobDetails p {
+    display: block;
+    background: red;
+    border-top: 1px solid #484848;
+    border-bottom: 1px solid #2E2E2E;
+    color: white;
+    text-decoration: none;
+    padding: 15px; }
+
+/* line 94, stdin */
+#jobDetails:target {
+  display: block; }
+
+/* line 98, stdin */
 .ui-autocomplete {
   max-height: 100px;
   overflow-y: auto;
@@ -3378,31 +3401,39 @@ a {
 /* IE 6 doesn't support max-height
    * we use height instead, but this forces the menu to always be this tall
    */
-/* line 94, stdin */
+/* line 107, stdin */
 * html .ui-autocomplete {
   height: 100px; }
 
-/* line 97, stdin */
+/* line 110, stdin */
 #salary-bar {
   background: green; }
 
-/* line 100, stdin */
+/* line 113, stdin */
 #map {
   background: brown; }
 
-/* line 103, stdin */
+/* line 116, stdin */
 #list {
   background: gray; }
 
-/* line 106, stdin */
+/* line 119, stdin */
 #footer {
   background: yellow; }
 
-/* line 110, stdin */
+/* line 123, stdin */
 #filter-bar {
   padding-top: 30px;
   background: white; }
 
-/* line 118, stdin */
+/* line 127, stdin */
+.jobCat {
+  text-align: center; }
+
+/* line 131, stdin */
 * {
   box-sizing: border-box; }
+
+/* line 135, stdin */
+#apply {
+  margin-bottom: none; }
